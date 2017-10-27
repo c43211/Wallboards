@@ -1,17 +1,9 @@
 Windows 10 IoT Core sample code
 ===============
 
-[Documentation for this sample](https://developer.microsoft.com/en-us/windows/iot/samples/iotbrowser) 
-
-## How to download:
-
-Unfortunately, GitHub does not support downloading individual code. 
+This project is a modified version of the Windows 10 IoT example browser, so that a webpage automatically loads and runs fullscreen.
 
 Navigate to [ms-iot/samples](https://github.com/ms-iot/samples) and select **Clone or download** to download the whole repository.
-
-
-## Additional resources
-* [Windows 10 IoT Core home page](https://developer.microsoft.com/en-us/windows/iot/)
-* [Documentation for all samples](https://developer.microsoft.com/en-us/windows/iot/samples)
+[Documentation this project](https://developer.microsoft.com/en-us/windows/iot/samples/iotbrowser)
 
 This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments.
