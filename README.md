@@ -1,4 +1,4 @@
-Windows 10 IoT Core sample code
+Windows 10 IoT Core Browser Wallboard
 ===============
 
 This project is a modified version of the Windows 10 IoT example browser, so that a webpage automatically loads and runs fullscreen.
