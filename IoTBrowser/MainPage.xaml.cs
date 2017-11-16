@@ -79,11 +79,5 @@ namespace IoTBrowser
             webView.Visibility = Visibility.Visible;
             MessageStackPanel.Visibility = Visibility.Collapsed;
         }
-
-        private void autorestart()
-        {
-
-
-        }
     }
 }
