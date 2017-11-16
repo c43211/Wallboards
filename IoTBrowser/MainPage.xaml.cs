@@ -6,6 +6,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+//run schtasks /create /tn "RestartApp" /tr "kill MedequipWallboard.exe /F" /sc hourly
 
 namespace IoTBrowser
 {
@@ -20,8 +21,9 @@ namespace IoTBrowser
             //hide the nav bar
             scvNavBar.Visibility = Visibility.Collapsed;
             //set the address to go to
-            String urlString = "http://www.onlinemedequip.com/wallboards/board-009.htm";
+            String urlString = "http://www.onlinemedequip.com/wallboards/board-067.htm";
             webView.Navigate(new Uri(urlString));
+            autorestart();
         }
 
         private void Go_Web_Click(object sender, RoutedEventArgs e)
@@ -59,8 +61,6 @@ namespace IoTBrowser
             }
         }
 
-  
-
         private void DisplayMessage(String message)
         {
             Message.Text = message;
@@ -78,6 +78,12 @@ namespace IoTBrowser
         {
             webView.Visibility = Visibility.Visible;
             MessageStackPanel.Visibility = Visibility.Collapsed;
+        }
+
+        private void autorestart()
+        {
+
+
         }
     }
 }

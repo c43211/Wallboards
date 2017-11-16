@@ -7,8 +7,8 @@
     <ProjectGuid>{37E06E31-AE84-4DDB-88BC-231CDB4FC72A}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IoTBrowser</RootNamespace>
-    <AssemblyName>IoTBrowser</AssemblyName>
+    <RootNamespace>MedequipWallboard</RootNamespace>
+    <AssemblyName>MedequipWallboard</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.15063.0</TargetPlatformVersion>
@@ -120,7 +120,9 @@
     <None Include="IoTBrowser_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Properties\Default.rd.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
