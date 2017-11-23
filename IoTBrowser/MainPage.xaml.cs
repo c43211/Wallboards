@@ -18,12 +18,13 @@ namespace IoTBrowser
         public MainPage()
         {
             this.InitializeComponent();
+            var deviceInfo = new Windows.Security.ExchangeActiveSyncProvisioning.EasClientDeviceInformation();
+            var deviceName = deviceInfo.FriendlyName;
             //hide the nav bar
             scvNavBar.Visibility = Visibility.Collapsed;
             //set the address to go to
-            String urlString = "http://www.onlinemedequip.com/wallboards/board-067.htm";
+            String urlString = "http://www.onlinemedequip.com/wallboards/" + deviceName + ".htm";
             webView.Navigate(new Uri(urlString));
-            autorestart();
         }
 
         private void Go_Web_Click(object sender, RoutedEventArgs e)
