@@ -24,7 +24,7 @@
     <AppxBundlePlatforms>arm</AppxBundlePlatforms>
     <AppxBundle>Always</AppxBundle>
     <PackageCertificateThumbprint>29D49B7E8B217558130406623E5D8C2B49208521</PackageCertificateThumbprint>
-    <AppxPackageDir>C:\Users\callum.griffin\Desktop\GitHub\IoTBrowser\AppPackages\livechat</AppxPackageDir>
+    <AppxPackageDir>M:\Windows 10 IoT Wallboard\Build\1.0.1\</AppxPackageDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
