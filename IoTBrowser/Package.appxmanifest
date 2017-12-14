@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="MedequipWallboard" Publisher="CN=MSFT" Version="1.0.1.0" />
-  <mp:PhoneIdentity PhoneProductId="e8bc8e78-032d-465c-826d-9ec0c1a4a013" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="53730CallumGriffin.MedequipWallboard" Publisher="CN=CF194562-ADF5-45D8-809B-DA19871BE21F" Version="1.1.0.0" />
+  <mp:PhoneIdentity PhoneProductId="64ca5bcd-b294-4a77-8728-329022181600" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>Medequip Wallboard</DisplayName>
-    <PublisherDisplayName>MSFT</PublisherDisplayName>
+    <DisplayName>MedequipWallboard</DisplayName>
+    <PublisherDisplayName>Callum Griffin</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="MedequipWallboard.App">
-      <uap:VisualElements DisplayName="Medequip Wallboard" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Medequip Wallboard" BackgroundColor="transparent">
+      <uap:VisualElements DisplayName="MedequipWallboard" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Medequip Wallboard" BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="white" />
@@ -25,10 +25,10 @@
       </uap:VisualElements>
       <Extensions>
         <uap:Extension Category="windows.protocol">
-          <uap:Protocol Name="https" />
+          <uap:Protocol Name="http" />
         </uap:Extension>
         <uap:Extension Category="windows.protocol">
-          <uap:Protocol Name="http" />
+          <uap:Protocol Name="https" />
         </uap:Extension>
       </Extensions>
     </Application>

@@ -4,6 +4,9 @@ using System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Push;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 //run schtasks /create /tn "RestartApp" /tr "kill MedequipWallboard.exe /F" /sc hourly
@@ -17,6 +20,8 @@ namespace IoTBrowser
     {
         public MainPage()
         {
+            AppCenter.Start("51342041-155d-4cb1-a3f6-9ce8dcea6083", typeof(Analytics));
+            AppCenter.Start("51342041-155d-4cb1-a3f6-9ce8dcea6083", typeof(Push));
             this.InitializeComponent();
             var deviceInfo = new Windows.Security.ExchangeActiveSyncProvisioning.EasClientDeviceInformation();
             var deviceName = deviceInfo.FriendlyName;

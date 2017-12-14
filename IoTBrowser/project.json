@@ -1,9 +1,12 @@
 ﻿{
   "dependencies": {
-    "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+    "Microsoft.AppCenter": "1.1.0",
+    "Microsoft.AppCenter.Analytics": "1.1.0",
+    "Microsoft.AppCenter.Push": "1.1.0",
+    "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.5"
   },
   "frameworks": {
-    "uap10.0": {}
+    "uap10.0.10240": {}
   },
   "runtimes": {
     "win10-arm": {},
