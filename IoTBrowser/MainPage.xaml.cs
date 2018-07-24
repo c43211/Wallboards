@@ -28,7 +28,7 @@ namespace IoTBrowser
             //hide the nav bar
             scvNavBar.Visibility = Visibility.Collapsed;
             //set the address to go to
-            String urlString = "http://www.onlinemedequip.com/wallboards/" + deviceName + ".htm";
+            String urlString = "https://www.google.co.uk/search?q=enter+url+here";
             webView.Navigate(new Uri(urlString));
         }
 
